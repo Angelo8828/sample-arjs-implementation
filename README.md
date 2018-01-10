@@ -10,4 +10,4 @@ Scripts used:
 
 [https://www.npmjs.com/package/aframe-text-geometry-component](https://www.npmjs.com/package/aframe-text-geometry-component)
 
-<sup>1</sup> [Added fixes for transparent GIFs. Apparently will not work with non-transparent GIFs.](https://github.com/mayognaise/aframe-gif-shader/issues/2#issuecomment-277603112)
+<sup>1</sup> [Added fixes for transparent GIFs.](https://github.com/mayognaise/aframe-gif-shader/issues/2#issuecomment-277603112) Apparently will not work with non-transparent GIFs.
