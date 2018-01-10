@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Sample AR</title>
+		<script src="aframe.min.js"></script>
+		<script src="aframe-ar.js"></script>
+
+    </head>
+	<body style="margin : 0px; overflow: hidden; font-family: Monospace;"><div style='position: fixed; top: 10px; width:100%; text-align: center; z-index: 1;'>
+	</div>
+		<a-scene embedded arjs='sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
+
+			<a-assets>
+				<img id="sample_image" src="20181138150108gn2wW7370a11a3cc98bb1d667431e030e0cdd.jpg" crossorigin="anonymous">
+    		</a-assets>
+
+			<a-marker preset='custom' type='pattern' url='20180907580108dD9Ddfe85eff0cc2f8b608fe302f18982cbf0.patt'>
+
+					<!-- FOR GIFS -->
+					<!-- <a-entity rotation="-90 0 0" geometry="primitive:plane" material="shader:gif;src:url(20181138140108sMGxF65b152e0f17c33d387c1b33cc0b0be1e.gif);" gif="" transparent="true"></a-entity> -->
+
+					<!-- FOR NON-GIF IMAGES -->
+					<!-- <a-image rotation="-90 0 0" src="#sample_image"></a-image> -->
+
+					<!-- FOR TEXT					 -->
+					<a-entity rotation="-90 0 0" position="-1 0 0" text-geometry="value: Sample Sample Sample; size: 0.2;"></a-entity>
+			</a-marker>
+
+			<a-entity camera></a-entity>
+		</a-scene>
+	</body>
+
+	<script src="aframe-text-geometry-component.min.js"></script>
+	<script src="aframe-gif-shader.js"></script>
+</html>
