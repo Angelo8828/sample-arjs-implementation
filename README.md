@@ -1,4 +1,4 @@
-# Scripts
+# Sample AR.js Implementation w/ Reduced Borders
 
 Scripts used:
 
@@ -12,4 +12,5 @@ Scripts used:
 
 <sup>1</sup> [Added fixes for transparent GIFs.](https://github.com/mayognaise/aframe-gif-shader/issues/2#issuecomment-277603112) Apparently will not work with non-transparent GIFs.
 
+Currently based from AR.js v1.5.1. Please see this [issue](https://github.com/jeromeetienne/AR.js/issues/296) on how I reduced the borders.
 Feel free to submit an issue if you have questions or if you have difficulty in running this work. 
